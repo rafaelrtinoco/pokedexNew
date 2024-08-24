@@ -7,7 +7,7 @@
 }
 
 /* cores background */
-.nornal{
+.normal{
   background-color: #a6a877
 }
 .grass{
@@ -19,7 +19,7 @@
 .water{
   background-color: #678fee;
 }
-.eletric{
+.electric{
   background-color: #f7cf2e;
 }
 .ice{
@@ -39,9 +39,6 @@
 }
 .fighting{
   background-color: #bf3029;
-}
-.water{
-  background-color: #678fee;
 }
 .water{
   background-color: #678fee;
