@@ -135,6 +135,11 @@
   padding: .5rem; 
 }
 
+.powers{
+  padding: 2rem 0;  
+  font-size: .8rem;  
+}
+
 @media screen and (min-width: 380px) {
   .pokemons{
     grid-template-columns:  1fr 1fr;

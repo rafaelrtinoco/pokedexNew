@@ -14,7 +14,7 @@ function loadPokemonItens(offset, limit) {
         (pokemonModel) => `
       <li class="pokemon ${pokemonModel.type}">
             <span class="number">#${pokemonModel.number}</span>
-            <pan class="name">${pokemonModel.name}</pan>
+            <span class="name">${pokemonModel.name}</span>
             <div class="detail">
               <ol class="types">
                 ${pokemonModel.types
@@ -23,6 +23,12 @@ function loadPokemonItens(offset, limit) {
               </ol>
               <img src="${pokemonModel.photo}"
                 alt="${pokemonModel.name}">
+                 
+            </div>
+            <div class="powers">
+            <span >${"Experience: " + pokemonModel.experience}
+            <br>
+            <span >${"Height: " + pokemonModel.height}
             </div>
           </li>
     `

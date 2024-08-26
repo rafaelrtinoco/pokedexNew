@@ -15,6 +15,10 @@ function nossoModeloPokemon(detalhePokemon) {
 
   pokemonModel.photo = detalhePokemon.sprites.other.dream_world.front_default
 
+  pokemonModel.experience = detalhePokemon.base_experience
+
+  pokemonModel.height = detalhePokemon.height
+
   return pokemonModel
 }
 
@@ -36,3 +40,4 @@ pokeApi.getPokemons = (offset = 0, limit = 5) => {
     .then((pokemonDetails) => pokemonDetails)
       
 }
+
